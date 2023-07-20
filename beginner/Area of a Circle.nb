@@ -1,0 +1,906 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     36566,        898]
+NotebookOptionsPosition[     32191,        812]
+NotebookOutlinePosition[     32609,        828]
+CellTagsIndexPosition[     32566,        825]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Disk", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.8988803868507853`*^9, 3.8988803882109528`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"35902694-cb9b-4b1b-aeeb-c493af0d961a"],
+
+Cell[BoxData[
+ RowBox[{"Disk", "[", 
+  RowBox[{"{", 
+   RowBox[{"0", ",", "0"}], "}"}], "]"}]], "Output",
+ CellChangeTimes->{3.8988803891400213`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"e229d43e-4fcb-4464-b70b-96105954b8ad"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "Disk"}]], "Input",
+ CellChangeTimes->{{3.898880389059019*^9, 3.898880395080639*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"1b4e15f8-38d2-4ee9-9764-0769e53e5797"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = False, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"]], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"]]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Disk",
+              ButtonNote->"paclet:ref/Disk"],
+             "\"paclet:ref/Disk\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Disk\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \
+\\\",\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\"}], \\\",\\\", \
+StyleBox[\\\"r\\\", \\\"TI\\\"]}], \\\"]\\\"}]\\) represents a disk of radius \
+\\!\\(\\*StyleBox[\\\"r\\\", \\\"TI\\\"]\\) centered at \
+\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \
+\\\",\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \
+\\\"}\\\"}]\\).\\n\\!\\(\\*RowBox[{\\\"Disk\\\", \\\"[\\\", \
+RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \\\",\\\", \
+StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\"}], \\\"]\\\"}]\\) gives a disk \
+of radius 1. \\n\\!\\(\\*RowBox[{\\\"Disk\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \
+\\\",\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{SubscriptBox[StyleBox[\\\"r\\\", \\\"TI\\\"], \
+StyleBox[\\\"x\\\", \\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"r\\\", \
+\\\"TI\\\"], StyleBox[\\\"y\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \
+\\\"]\\\"}]\\) gives an axis-aligned elliptical disk with semiaxes lengths \
+\\!\\(\\*SubscriptBox[StyleBox[\\\"r\\\", \\\"TI\\\"], StyleBox[\\\"x\\\", \\\
+\"TI\\\"]]\\) and \\!\\(\\*SubscriptBox[StyleBox[\\\"r\\\", \\\"TI\\\"], \
+StyleBox[\\\"y\\\", \\\"TI\\\"]]\\).\\n\\!\\(\\*RowBox[{\\\"Disk\\\", \\\"[\\\
+\", RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \\\",\
+\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\"}], \\\",\\\", \
+StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"\[Theta]\\\", \\\"TR\\\"], StyleBox[\\\"1\\\
+\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"\[Theta]\\\", \\\"TR\\\
+\"], StyleBox[\\\"2\\\", \\\"TR\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) gives \
+a sector of a disk from angle \
+\\!\\(\\*SubscriptBox[StyleBox[\\\"\[Theta]\\\", \\\"TR\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]]\\) to \\!\\(\\*SubscriptBox[StyleBox[\\\"\
+\[Theta]\\\", \\\"TR\\\"], StyleBox[\\\"2\\\", \
+\\\"TR\\\"]]\\).\\n\\!\\(\\*RowBox[{\\\"Disk\\\", \\\"[\\\", RowBox[{RowBox[{\
+\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"y\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"y\\\", \
+\\\"TI\\\"], StyleBox[\\\"2\\\", \\\"TR\\\"]]}], \\\"}\\\"}], \\\",\\\", \
+StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", \
+StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"]\\\"}]\\) gives multiple \
+identical disks centered at the given coordinates\"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Documentation\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Documentation\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Documentation", "Tooltip"]& ], 
+                   TemplateBox[{
+                    
+                    TemplateBox[{
+                    "\"Local \[RightGuillemet]\"", "paclet:ref/Disk", 
+                    "paclet:ref/Disk", "Link", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"], "\"  \"", 
+                    StyleBox[
+                    "\"|\"", "InformationRowLabel", StripOnInput -> False], 
+                    "\"  \"", 
+                    TemplateBox[{"\"Web \[RightGuillemet]\"", {
+                    URL[
+                    "http://reference.wolfram.com/language/ref/Disk.html"], 
+                    None}, "http://reference.wolfram.com/language/ref/Disk.\
+html", "Hyperlink", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"]},
+                    "RowDefault"]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Attributes\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Attributes\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Attributes", "Tooltip"]& ], 
+                   RowBox[{"{", 
+                    RowBox[{"Protected", ",", "ReadProtected"}], "}"}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"System`Disk\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{13., {4., 9.}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{13., {4., 9.}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Disk",
+              ButtonNote->"paclet:ref/Disk"],
+             "\"paclet:ref/Disk\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Disk\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \
+\\\",\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\"}], \\\",\\\", \
+StyleBox[\\\"r\\\", \\\"TI\\\"]}], \\\"]\\\"}]\\) represents a disk of radius \
+\\!\\(\\*StyleBox[\\\"r\\\", \\\"TI\\\"]\\) centered at \
+\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \
+\\\",\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \
+\\\"}\\\"}]\\).\\n\\!\\(\\*RowBox[{\\\"Disk\\\", \\\"[\\\", \
+RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \\\",\\\", \
+StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\"}], \\\"]\\\"}]\\) gives a disk \
+of radius 1. \\n\\!\\(\\*RowBox[{\\\"Disk\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \
+\\\",\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{SubscriptBox[StyleBox[\\\"r\\\", \\\"TI\\\"], \
+StyleBox[\\\"x\\\", \\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"r\\\", \
+\\\"TI\\\"], StyleBox[\\\"y\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \
+\\\"]\\\"}]\\) gives an axis-aligned elliptical disk with semiaxes lengths \
+\\!\\(\\*SubscriptBox[StyleBox[\\\"r\\\", \\\"TI\\\"], StyleBox[\\\"x\\\", \\\
+\"TI\\\"]]\\) and \\!\\(\\*SubscriptBox[StyleBox[\\\"r\\\", \\\"TI\\\"], \
+StyleBox[\\\"y\\\", \\\"TI\\\"]]\\).\\n\\!\\(\\*RowBox[{\\\"Disk\\\", \\\"[\\\
+\", RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \\\",\
+\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\"}], \\\",\\\", \
+StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"\[Theta]\\\", \\\"TR\\\"], StyleBox[\\\"1\\\
+\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"\[Theta]\\\", \\\"TR\\\
+\"], StyleBox[\\\"2\\\", \\\"TR\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) gives \
+a sector of a disk from angle \
+\\!\\(\\*SubscriptBox[StyleBox[\\\"\[Theta]\\\", \\\"TR\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]]\\) to \\!\\(\\*SubscriptBox[StyleBox[\\\"\
+\[Theta]\\\", \\\"TR\\\"], StyleBox[\\\"2\\\", \
+\\\"TR\\\"]]\\).\\n\\!\\(\\*RowBox[{\\\"Disk\\\", \\\"[\\\", RowBox[{RowBox[{\
+\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"y\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]]}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"y\\\", \
+\\\"TI\\\"], StyleBox[\\\"2\\\", \\\"TR\\\"]]}], \\\"}\\\"}], \\\",\\\", \
+StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", \
+StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"]\\\"}]\\) gives multiple \
+identical disks centered at the given coordinates\"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {3., 7.}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{10., {3., 7.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "\!\(\*RowBox[{\"Disk\", \"[\", RowBox[{RowBox[{\"{\", \
+RowBox[{StyleBox[\"x\", \"TI\"], \",\", StyleBox[\"y\", \"TI\"]}], \"}\"}], \
+\",\", StyleBox[\"r\", \"TI\"]}], \"]\"}]\) represents a disk of radius \
+\!\(\*StyleBox[\"r\", \"TI\"]\) centered at \!\(\*RowBox[{\"{\", \
+RowBox[{StyleBox[\"x\", \"TI\"], \",\", StyleBox[\"y\", \"TI\"]}], \"}\"}]\).\
+\n\!\(\*RowBox[{\"Disk\", \"[\", RowBox[{\"{\", RowBox[{StyleBox[\"x\", \
+\"TI\"], \",\", StyleBox[\"y\", \"TI\"]}], \"}\"}], \"]\"}]\) gives a disk of \
+radius 1. \n\!\(\*RowBox[{\"Disk\", \"[\", RowBox[{RowBox[{\"{\", \
+RowBox[{StyleBox[\"x\", \"TI\"], \",\", StyleBox[\"y\", \"TI\"]}], \"}\"}], \
+\",\", RowBox[{\"{\", RowBox[{SubscriptBox[StyleBox[\"r\", \"TI\"], StyleBox[\
+\"x\", \"TI\"]], \",\", SubscriptBox[StyleBox[\"r\", \"TI\"], StyleBox[\"y\", \
+\"TI\"]]}], \"}\"}]}], \"]\"}]\) gives an axis-aligned elliptical disk with \
+semiaxes lengths \!\(\*SubscriptBox[StyleBox[\"r\", \"TI\"], StyleBox[\"x\", \
+\"TI\"]]\) and \!\(\*SubscriptBox[StyleBox[\"r\", \"TI\"], StyleBox[\"y\", \
+\"TI\"]]\).\n\!\(\*RowBox[{\"Disk\", \"[\", RowBox[{RowBox[{\"{\", \
+RowBox[{StyleBox[\"x\", \"TI\"], \",\", StyleBox[\"y\", \"TI\"]}], \"}\"}], \
+\",\", StyleBox[\"\[Ellipsis]\", \"TR\"], \",\", RowBox[{\"{\", \
+RowBox[{SubscriptBox[StyleBox[\"\[Theta]\", \"TR\"], StyleBox[\"1\", \
+\"TR\"]], \",\", SubscriptBox[StyleBox[\"\[Theta]\", \"TR\"], StyleBox[\"2\", \
+\"TR\"]]}], \"}\"}]}], \"]\"}]\) gives a sector of a disk from angle \
+\!\(\*SubscriptBox[StyleBox[\"\[Theta]\", \"TR\"], StyleBox[\"1\", \"TR\"]]\) \
+to \!\(\*SubscriptBox[StyleBox[\"\[Theta]\", \"TR\"], StyleBox[\"2\", \
+\"TR\"]]\).\n\!\(\*RowBox[{\"Disk\", \"[\", RowBox[{RowBox[{\"{\", \
+RowBox[{RowBox[{\"{\", RowBox[{SubscriptBox[StyleBox[\"x\", \"TI\"], \
+StyleBox[\"1\", \"TR\"]], \",\", SubscriptBox[StyleBox[\"y\", \"TI\"], \
+StyleBox[\"1\", \"TR\"]]}], \"}\"}], \",\", RowBox[{\"{\", \
+RowBox[{SubscriptBox[StyleBox[\"x\", \"TI\"], StyleBox[\"2\", \"TR\"]], \
+\",\", SubscriptBox[StyleBox[\"y\", \"TI\"], StyleBox[\"2\", \"TR\"]]}], \
+\"}\"}], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}], \",\", \
+StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"]\"}]\) gives multiple identical disks \
+centered at the given coordinates", 
+    "Documentation" -> <|
+     "Local" -> "paclet:ref/Disk", "Web" -> 
+      "http://reference.wolfram.com/language/ref/Disk.html"|>, "OwnValues" -> 
+    None, "UpValues" -> None, "DownValues" -> None, "SubValues" -> None, 
+    "DefaultValues" -> None, "NValues" -> None, "FormatValues" -> None, 
+    "Options" -> None, "Attributes" -> {Protected, ReadProtected}, "FullName" -> 
+    "System`Disk"|>, False]]], "Output",
+ CellChangeTimes->{{3.898880393526967*^9, 3.8988803957667093`*^9}},
+ CellLabel->"Out[3]=",ExpressionUUID->"67add5ce-e76f-4492-9d39-80544db99b74"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Area", "[", 
+  RowBox[{"Disk", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"x", ",", "y"}], "}"}], ",", "r"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988804028250256`*^9, 3.898880408018552*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"316991d4-2b67-47d7-9f01-7e08dc69afe5"],
+
+Cell[BoxData[
+ RowBox[{"\[Pi]", " ", 
+  SuperscriptBox["r", "2"]}]], "Output",
+ CellChangeTimes->{3.8988804085116434`*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"6db754b5-ee11-4455-a00a-2098aa7e02ec"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Area", "[", 
+  RowBox[{"Disk", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"x", ",", "y"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"p", ",", "q"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988804028250256`*^9, 3.8988804153173127`*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"427edeb7-d6c0-4eba-a194-fa6d729ea546"],
+
+Cell[BoxData[
+ RowBox[{"p", " ", "\[Pi]", " ", "q"}]], "Output",
+ CellChangeTimes->{3.8988804156973395`*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"2de183ca-cb13-4f24-80e8-80aa7dcfed10"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Area", "[", 
+  RowBox[{"Disk", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"x", ",", "y"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"p", ",", "q"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\[Theta]1", ",", "\[Theta]2"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988804028250256`*^9, 3.8988804453268065`*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"36b3747f-3218-496c-a474-b6e4b9e24ec9"],
+
+Cell[BoxData[
+ RowBox[{"p", " ", "q", " ", 
+  RowBox[{"Min", "[", 
+   RowBox[{"\[Pi]", ",", 
+    RowBox[{
+     FractionBox["1", "2"], " ", 
+     RowBox[{"Abs", "[", 
+      RowBox[{
+       RowBox[{"-", "\[Theta]1"}], "+", "\[Theta]2"}], "]"}]}]}], 
+   "]"}]}]], "Output",
+ CellChangeTimes->{{3.898880438118101*^9, 3.8988804457688475`*^9}},
+ CellLabel->"Out[7]=",ExpressionUUID->"dab1f121-6ee2-4f9b-8280-6d16e955f880"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Area", "[", 
+  RowBox[{"Disk", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"x", ",", "y"}], "}"}], ",", "2"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988806082364607`*^9, 3.8988806133839245`*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"3eb689b1-8511-4714-86e6-b6d84f482a96"],
+
+Cell[BoxData[
+ RowBox[{"4", " ", "\[Pi]"}]], "Output",
+ CellChangeTimes->{3.8988806137619243`*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"f97bbfe6-2c12-4ebd-98d6-590a49e6809e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Area", "[", 
+  RowBox[{
+   RowBox[{"Disk", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"x", ",", "y"}], "}"}], ",", "2"}], "]"}], ",", 
+   RowBox[{"WorkingPrecision", "->", "MachinePrecision"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988806082364607`*^9, 3.8988806242586603`*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"63ab12c5-3157-4a3e-ac32-d593fde5d424"],
+
+Cell[BoxData["12.566370614359172`"], "Output",
+ CellChangeTimes->{3.8988806247011724`*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"7df9b4e7-2b32-4abe-b59d-cd49a1ed98f2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Area", "[", 
+  RowBox[{
+   RowBox[{"Disk", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"x", ",", "y"}], "}"}], ",", "2"}], "]"}], ",", 
+   RowBox[{"WorkingPrecision", "->", "10"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988806082364607`*^9, 3.8988806295910025`*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"a97a9e77-1994-47c9-b138-963a73013516"],
+
+Cell[BoxData["12.5663706143591729538`10."], "Output",
+ CellChangeTimes->{3.8988806299200172`*^9},
+ CellLabel->"Out[10]=",ExpressionUUID->"709ae080-9bb9-4b65-9d31-548e6c671565"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Area", "[", 
+  RowBox[{
+   RowBox[{"Disk", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"x", ",", "y"}], "}"}], ",", "100.64"}], "]"}], ",", 
+   RowBox[{"WorkingPrecision", "->", "MachinePrecision"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988806082364607`*^9, 3.898880644901929*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"2dc7996e-8522-443f-83f7-2a43056154b7"],
+
+Cell[BoxData["31819.337191908337`"], "Output",
+ CellChangeTimes->{3.898880645479508*^9},
+ CellLabel->"Out[11]=",ExpressionUUID->"03a185ef-5687-4522-bebc-ed83e4147767"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Area", "[", 
+  RowBox[{
+   RowBox[{"Disk", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"x", ",", "y"}], "}"}], ",", "100.64"}], "]"}], ",", 
+   RowBox[{"WorkingPrecision", "->", "MachinePrecision"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988806082364607`*^9, 
+  3.8988806477083225`*^9}},ExpressionUUID->"c2a55070-8b93-4188-9f4e-\
+48cead7c4772"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Area", "[", 
+  RowBox[{
+   RowBox[{"Disk", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"x", ",", "y"}], "}"}], ",", "100.64"}], "]"}], ",", 
+   RowBox[{"WorkingPrecision", "->", "MachinePrecision"}], ",", 
+   RowBox[{"AccuracyGoal", "->", "4"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988806082364607`*^9, 3.8988806477083225`*^9}, {
+  3.8988807178395386`*^9, 3.8988807215484147`*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"101a3e78-fc8e-4fea-917e-c8b0dc439722"],
+
+Cell[BoxData["31819.337191908337`"], "Output",
+ CellChangeTimes->{3.898880722028433*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"7a61281d-5e17-4599-a45c-9926ab4f4ad0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DecimalForm", "[", 
+  RowBox[{"Area", "[", 
+   RowBox[{
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"x", ",", "y"}], "}"}], ",", "100.64"}], "]"}], ",", 
+    RowBox[{"WorkingPrecision", "->", "MachinePrecision"}], ",", 
+    RowBox[{"AccuracyGoal", "->", "4"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988807412348747`*^9, 3.898880747388729*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"7943b766-4a56-4407-9e95-8ff78d89bcd3"],
+
+Cell[BoxData[
+ TagBox[
+  InterpretationBox[
+   StyleBox["\<\"31819.3\"\>",
+    ShowStringCharacters->False],
+   31819.337191908337`,
+   AutoDelete->True],
+  DecimalForm]], "Output",
+ CellChangeTimes->{3.898880747716239*^9},
+ CellLabel->
+  "Out[13]//DecimalForm=",ExpressionUUID->"72c1f609-6f5e-4e3c-b58d-\
+7f4493f91b53"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DecimalForm", "[", 
+  RowBox[{"Area", "[", 
+   RowBox[{
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"x", ",", "y"}], "}"}], ",", "100.64"}], "]"}], ",", 
+    RowBox[{"WorkingPrecision", "->", "MachinePrecision"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8988807412348747`*^9, 3.8988807531290455`*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"4e92ea34-4abb-4b33-9452-67dcd178722a"],
+
+Cell[BoxData[
+ TagBox[
+  InterpretationBox[
+   StyleBox["\<\"31819.3\"\>",
+    ShowStringCharacters->False],
+   31819.337191908337`,
+   AutoDelete->True],
+  DecimalForm]], "Output",
+ CellChangeTimes->{3.898880753406553*^9},
+ CellLabel->
+  "Out[14]//DecimalForm=",ExpressionUUID->"2feef846-afbb-46d1-a29a-\
+917ce83d9eef"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FullForm", "[", 
+  RowBox[{"Area", "[", 
+   RowBox[{
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"x", ",", "y"}], "}"}], ",", "100.64"}], "]"}], ",", 
+    RowBox[{"WorkingPrecision", "->", "MachinePrecision"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8988807412348747`*^9, 3.8988807610928125`*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"e23490e3-46d4-412b-a318-dc13e6279fa0"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox["31819.337191908337`",
+   ShowSpecialCharacters->False,
+   ShowStringCharacters->True,
+   NumberMarks->True],
+  FullForm]], "Output",
+ CellChangeTimes->{3.8988807614218435`*^9},
+ CellLabel->
+  "Out[15]//FullForm=",ExpressionUUID->"4c62590c-282d-4429-ad5d-04e8148ee32f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Round", "[", 
+  RowBox[{
+   RowBox[{"Area", "[", 
+    RowBox[{
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"x", ",", "y"}], "}"}], ",", "100.64"}], "]"}], ",", 
+     RowBox[{"WorkingPrecision", "->", "MachinePrecision"}]}], "]"}], ",", 
+   SuperscriptBox["10", 
+    RowBox[{"-", "4"}]]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988807754442215`*^9, 3.898880780195729*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"56b5d236-4ae5-444e-b1cc-ce449fa2d6a0"],
+
+Cell[BoxData[
+ FractionBox["79548343", "2500"]], "Output",
+ CellChangeTimes->{3.8988807806062884`*^9},
+ CellLabel->"Out[16]=",ExpressionUUID->"995b9584-42c3-4a5c-bf08-647f5d0b75a9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Area", "[", 
+  RowBox[{
+   RowBox[{"Disk", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"x", ",", "y"}], "}"}], ",", "150"}], "]"}], ",", 
+   RowBox[{"WorkingPrecision", "->", "MachinePrecision"}]}], "]"}]], "Input",
+ CellLabel->"In[18]:=",ExpressionUUID->"c73bf9f5-bbaa-4bba-9018-b3512efba7c9"],
+
+Cell[BoxData["70685.83470577035`"], "Output",
+ CellChangeTimes->{3.8988808307320843`*^9},
+ CellLabel->"Out[18]=",ExpressionUUID->"6b5bc4c1-a3a2-495a-bf74-8f873d393a68"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FullForm", "[", 
+  RowBox[{"Area", "[", 
+   RowBox[{
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"x", ",", "y"}], "}"}], ",", "150"}], "]"}], ",", 
+    RowBox[{"WorkingPrecision", "->", "MachinePrecision"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8988808330582623`*^9, 3.898880834663348*^9}},
+ CellLabel->"In[19]:=",ExpressionUUID->"10ae7d1a-b682-4a09-81a8-26d937597061"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox["70685.83470577035`",
+   ShowSpecialCharacters->False,
+   ShowStringCharacters->True,
+   NumberMarks->True],
+  FullForm]], "Output",
+ CellChangeTimes->{3.898880834971349*^9},
+ CellLabel->
+  "Out[19]//FullForm=",ExpressionUUID->"9bdd1788-d4d6-4d69-96aa-30f27a8b5013"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FullForm", "[", 
+  RowBox[{"Area", "[", 
+   RowBox[{
+    RowBox[{"Disk", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"x", ",", "y"}], "}"}], ",", "150"}], "]"}], ",", 
+    RowBox[{"WorkingPrecision", "->", "10"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988808504607124`*^9, 3.898880850591711*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"74291d18-5a2b-4073-bf07-3115849e9206"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox["70685.8347057703478654095`10.",
+   ShowSpecialCharacters->False,
+   ShowStringCharacters->True,
+   NumberMarks->True],
+  FullForm]], "Output",
+ CellChangeTimes->{3.8988808509822454`*^9},
+ CellLabel->
+  "Out[20]//FullForm=",ExpressionUUID->"efeb9c43-7ee6-43d4-89d2-883100f50bde"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Round", "[", 
+  RowBox[{
+   RowBox[{"Area", "[", 
+    RowBox[{
+     RowBox[{"Disk", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"x", ",", "y"}], "}"}], ",", "150"}], "]"}], ",", 
+     RowBox[{"WorkingPrecision", "->", "MachinePrecision"}]}], "]"}], ",", 
+   SuperscriptBox["10", 
+    RowBox[{"-", "4"}]]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988807754442215`*^9, 3.898880780195729*^9}, {
+  3.8988808221619616`*^9, 3.8988808248993425`*^9}},
+ CellLabel->"In[17]:=",ExpressionUUID->"a59d626e-585b-4ade-b4da-2c031aecb065"],
+
+Cell[BoxData[
+ FractionBox["706858347", "10000"]], "Output",
+ CellChangeTimes->{3.8988808256370387`*^9},
+ CellLabel->"Out[17]=",ExpressionUUID->"be6f463b-c678-40c0-9638-48f583ac3c28"]
+}, Open  ]]
+},
+WindowSize->{574.8, 579.6},
+WindowMargins->{{Automatic, -4.7999999999999545`}, {Automatic, 0}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"bb093590-4ddd-4b59-a7d7-93b60186455a"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 200, 3, 28, "Input",ExpressionUUID->"35902694-cb9b-4b1b-aeeb-c493af0d961a"],
+Cell[783, 27, 227, 5, 32, "Output",ExpressionUUID->"e229d43e-4fcb-4464-b70b-96105954b8ad"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1047, 37, 191, 3, 28, "Input",ExpressionUUID->"1b4e15f8-38d2-4ee9-9764-0769e53e5797"],
+Cell[1241, 42, 19444, 396, 249, "Output",ExpressionUUID->"67add5ce-e76f-4492-9d39-80544db99b74"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20722, 443, 309, 7, 28, "Input",ExpressionUUID->"316991d4-2b67-47d7-9f01-7e08dc69afe5"],
+Cell[21034, 452, 200, 4, 32, "Output",ExpressionUUID->"6db754b5-ee11-4455-a00a-2098aa7e02ec"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21271, 461, 362, 9, 28, "Input",ExpressionUUID->"427edeb7-d6c0-4eba-a194-fa6d729ea546"],
+Cell[21636, 472, 186, 3, 32, "Output",ExpressionUUID->"2de183ca-cb13-4f24-80e8-80aa7dcfed10"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21859, 480, 439, 11, 28, "Input",ExpressionUUID->"36b3747f-3218-496c-a474-b6e4b9e24ec9"],
+Cell[22301, 493, 416, 11, 47, "Output",ExpressionUUID->"dab1f121-6ee2-4f9b-8280-6d16e955f880"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22754, 509, 311, 7, 28, "Input",ExpressionUUID->"3eb689b1-8511-4714-86e6-b6d84f482a96"],
+Cell[23068, 518, 176, 3, 32, "Output",ExpressionUUID->"f97bbfe6-2c12-4ebd-98d6-590a49e6809e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23281, 526, 393, 9, 28, "Input",ExpressionUUID->"63ab12c5-3157-4a3e-ac32-d593fde5d424"],
+Cell[23677, 537, 168, 2, 32, "Output",ExpressionUUID->"7df9b4e7-2b32-4abe-b59d-cd49a1ed98f2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23882, 544, 380, 9, 28, "Input",ExpressionUUID->"a97a9e77-1994-47c9-b138-963a73013516"],
+Cell[24265, 555, 176, 2, 32, "Output",ExpressionUUID->"709ae080-9bb9-4b65-9d31-548e6c671565"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24478, 562, 397, 9, 28, "Input",ExpressionUUID->"2dc7996e-8522-443f-83f7-2a43056154b7"],
+Cell[24878, 573, 167, 2, 32, "Output",ExpressionUUID->"03a185ef-5687-4522-bebc-ed83e4147767"]
+}, Open  ]],
+Cell[25060, 578, 380, 10, 28, "Input",ExpressionUUID->"c2a55070-8b93-4188-9f4e-48cead7c4772"],
+Cell[CellGroupData[{
+Cell[25465, 592, 498, 11, 48, "Input",ExpressionUUID->"101a3e78-fc8e-4fea-917e-c8b0dc439722"],
+Cell[25966, 605, 167, 2, 32, "Output",ExpressionUUID->"7a61281d-5e17-4599-a45c-9926ab4f4ad0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26170, 612, 488, 11, 48, "Input",ExpressionUUID->"7943b766-4a56-4407-9e95-8ff78d89bcd3"],
+Cell[26661, 625, 320, 11, 46, "Output",ExpressionUUID->"72c1f609-6f5e-4e3c-b58d-7f4493f91b53"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27018, 641, 446, 11, 48, "Input",ExpressionUUID->"4e92ea34-4abb-4b33-9452-67dcd178722a"],
+Cell[27467, 654, 320, 11, 46, "Output",ExpressionUUID->"2feef846-afbb-46d1-a29a-917ce83d9eef"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27824, 670, 443, 11, 48, "Input",ExpressionUUID->"e23490e3-46d4-412b-a318-dc13e6279fa0"],
+Cell[28270, 683, 303, 9, 46, "Output",ExpressionUUID->"4c62590c-282d-4429-ad5d-04e8148ee32f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28610, 697, 511, 13, 53, "Input",ExpressionUUID->"56b5d236-4ae5-444e-b1cc-ce449fa2d6a0"],
+Cell[29124, 712, 181, 3, 48, "Output",ExpressionUUID->"995b9584-42c3-4a5c-bf08-647f5d0b75a9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29342, 720, 326, 8, 28, "Input",ExpressionUUID->"c73bf9f5-bbaa-4bba-9018-b3512efba7c9"],
+Cell[29671, 730, 168, 2, 32, "Output",ExpressionUUID->"6b5bc4c1-a3a2-495a-bf74-8f873d393a68"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29876, 737, 438, 11, 48, "Input",ExpressionUUID->"10ae7d1a-b682-4a09-81a8-26d937597061"],
+Cell[30317, 750, 300, 9, 46, "Output",ExpressionUUID->"9bdd1788-d4d6-4d69-96aa-30f27a8b5013"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30654, 764, 421, 10, 28, "Input",ExpressionUUID->"74291d18-5a2b-4073-bf07-3115849e9206"],
+Cell[31078, 776, 313, 9, 46, "Output",ExpressionUUID->"efeb9c43-7ee6-43d4-89d2-883100f50bde"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31428, 790, 561, 14, 53, "Input",ExpressionUUID->"a59d626e-585b-4ade-b4da-2c031aecb065"],
+Cell[31992, 806, 183, 3, 48, "Output",ExpressionUUID->"be6f463b-c678-40c0-9638-48f583ac3c28"]
+}, Open  ]]
+}
+]
+*)
+
