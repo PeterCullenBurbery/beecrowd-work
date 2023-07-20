@@ -1,0 +1,194 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6817,        186]
+NotebookOptionsPosition[      5571,        156]
+NotebookOutlinePosition[      5989,        172]
+CellTagsIndexPosition[      5946,        169]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ExtremelyBasic", "//", "ClearAll"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ExtremelyBasic", "[", 
+   RowBox[{
+    RowBox[{"n1_Integer", "?", "IntegerQ"}], ",", 
+    RowBox[{"n2_Integer", "?", "IntegerQ"}]}], "]"}], ":=", 
+  RowBox[{"\"\<X \[LongEqual] \>\"", "<>", 
+   RowBox[{"ToString", "[", 
+    RowBox[{"n1", "+", "n2"}], "]"}]}]}]}], "Input",
+ CellChangeTimes->{{3.8988798832248735`*^9, 3.8988799413015895`*^9}},
+ CellLabel->
+  "In[300]:=",ExpressionUUID->"88efbf47-ab90-4607-a2f5-591422d80f18"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ExtremelyBasic", "[", 
+  RowBox[{"10", ",", "9"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988799310673246`*^9, 3.8988799351435137`*^9}},
+ CellLabel->
+  "In[302]:=",ExpressionUUID->"9a9130a0-e2d5-47c5-9271-a0dc212eb41a"],
+
+Cell[BoxData["\<\"X \[LongEqual] 19\"\>"], "Output",
+ CellChangeTimes->{{3.898879935457087*^9, 3.898879942798799*^9}},
+ CellLabel->
+  "Out[302]=",ExpressionUUID->"17d4c2d5-5b1c-4075-890a-967bbcd156bb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ExtremelyBasic", "[", 
+  RowBox[{
+   RowBox[{"-", "10"}], ",", "4"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988799310673246`*^9, 3.898879948192157*^9}},
+ CellLabel->
+  "In[303]:=",ExpressionUUID->"f248e16c-0ad4-4dd3-bf6f-2ae58ca31467"],
+
+Cell[BoxData["\<\"X \[LongEqual] -6\"\>"], "Output",
+ CellChangeTimes->{3.8988799486371746`*^9},
+ CellLabel->
+  "Out[303]=",ExpressionUUID->"617338aa-fe50-448d-afc5-936f9897ab6a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ExtremelyBasic", "[", 
+  RowBox[{"15", ",", 
+   RowBox[{"-", "7"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8988799310673246`*^9, 3.898879966638077*^9}},
+ CellLabel->
+  "In[305]:=",ExpressionUUID->"52713bb1-b088-4098-8af0-5d9ffd31b98d"],
+
+Cell[BoxData["\<\"X \[LongEqual] 8\"\>"], "Output",
+ CellChangeTimes->{{3.8988799538076563`*^9, 3.8988799669850817`*^9}},
+ CellLabel->
+  "Out[305]=",ExpressionUUID->"ba04af37-2bc7-4a9d-98ef-6106f81e5ccd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"ExtremelyBasic", "[", 
+    RowBox[{"n1", ",", "n2"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "n1", ",", "10", ",", 
+       "\"\<first integer \!\(\*SubscriptBox[\(n\), \(1\)]\)\>\""}], "}"}], 
+     ",", 
+     RowBox[{"-", "148"}], ",", "148", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "n2", ",", "9", ",", 
+       "\"\<second integer \!\(\*SubscriptBox[\(n\), \(2\)]\)\>\""}], "}"}], 
+     ",", 
+     RowBox[{"-", "148"}], ",", "148", ",", "1"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.898879969204802*^9, 3.8988800219827156`*^9}},
+ CellLabel->
+  "In[307]:=",ExpressionUUID->"9b88676c-009a-42f5-8b49-334f75165a49"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`n1$$ = -34, $CellContext`n2$$ = 37, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`n1$$], 10, 
+       "first integer \!\(\*SubscriptBox[\(n\), \(1\)]\)"}, -148, 148, 1}, {{
+       Hold[$CellContext`n2$$], 9, 
+       "second integer \!\(\*SubscriptBox[\(n\), \(2\)]\)"}, -148, 148, 1}}, 
+    Typeset`size$$ = {
+    38.961912918090825`, {0.11425780914723838`, 8.410644284449518}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`n1$$ = 10, $CellContext`n2$$ = 9}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, 
+      "Body" :> $CellContext`ExtremelyBasic[$CellContext`n1$$, \
+$CellContext`n2$$], 
+      "Specifications" :> {{{$CellContext`n1$$, 10, 
+          "first integer \!\(\*SubscriptBox[\(n\), \(1\)]\)"}, -148, 148, 
+         1}, {{$CellContext`n2$$, 9, 
+          "second integer \!\(\*SubscriptBox[\(n\), \(2\)]\)"}, -148, 148, 
+         1}}, "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{366., {38.13403328722343, 43.86596671277657}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.898880016473585*^9, 3.898880022746335*^9}},
+ CellLabel->
+  "Out[307]=",ExpressionUUID->"7b7d3795-add3-40a3-8a24-56749f58e3bf"]
+}, Open  ]]
+},
+WindowSize->{574.8, 579.6},
+WindowMargins->{{Automatic, -4.7999999999999545`}, {Automatic, 0}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"c5d376a1-5056-40b7-b4c4-31e23d661e87"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 571, 14, 86, "Input",ExpressionUUID->"88efbf47-ab90-4607-a2f5-591422d80f18"],
+Cell[CellGroupData[{
+Cell[1154, 38, 244, 5, 28, "Input",ExpressionUUID->"9a9130a0-e2d5-47c5-9271-a0dc212eb41a"],
+Cell[1401, 45, 201, 3, 32, "Output",ExpressionUUID->"17d4c2d5-5b1c-4075-890a-967bbcd156bb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1639, 53, 261, 6, 28, "Input",ExpressionUUID->"f248e16c-0ad4-4dd3-bf6f-2ae58ca31467"],
+Cell[1903, 61, 179, 3, 32, "Output",ExpressionUUID->"617338aa-fe50-448d-afc5-936f9897ab6a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2119, 69, 261, 6, 28, "Input",ExpressionUUID->"52713bb1-b088-4098-8af0-5d9ffd31b98d"],
+Cell[2383, 77, 204, 3, 32, "Output",ExpressionUUID->"ba04af37-2bc7-4a9d-98ef-6106f81e5ccd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2624, 85, 786, 23, 67, "Input",ExpressionUUID->"9b88676c-009a-42f5-8b49-334f75165a49"],
+Cell[3413, 110, 2142, 43, 101, "Output",ExpressionUUID->"7b7d3795-add3-40a3-8a24-56749f58e3bf"]
+}, Open  ]]
+}
+]
+*)
+
